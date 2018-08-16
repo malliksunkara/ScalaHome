@@ -1,4 +1,4 @@
-package home.scalapractise.two
+package home.scalapractise.scalaFoundataions
 
 object Option_Tutorial extends App {
 

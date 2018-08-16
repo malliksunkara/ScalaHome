@@ -1,4 +1,4 @@
-package home.scalapractise.two
+package home.scalapractise.scalaFoundataions
 
 object VariablesTypeInference_Tutorial extends App {
 

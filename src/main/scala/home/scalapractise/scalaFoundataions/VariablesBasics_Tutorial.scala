@@ -1,4 +1,4 @@
-package home.scalapractise.two
+package home.scalapractise.scalaFoundataions
 
 object VariablesBasics_Tutorial extends App {
 

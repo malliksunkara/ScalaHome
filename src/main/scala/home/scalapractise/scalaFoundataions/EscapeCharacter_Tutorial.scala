@@ -1,4 +1,4 @@
-package home.scalapractise.two
+package home.scalapractise.scalaFoundataions
 
 /**
   * Created by Nadim Bahadoor on 09/06/2016.
