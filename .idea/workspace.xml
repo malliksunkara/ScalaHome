@@ -2,19 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44511543-014f-4a20-b3eb-5e2b1e6085d8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/scala/home/scalapractise/two/Enumeration_Tutorial.scala" afterPath="$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/Enumeration_Tutorial.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/home/scalapractise/two/EscapeCharacter_Tutorial.scala" afterPath="$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/EscapeCharacter_Tutorial.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/home/scalapractise/two/ForLoop_Tutorial.scala" afterPath="$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/ForLoop_Tutorial.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/home/scalapractise/two/If_Else_Expression_Tutorial.scala" afterPath="$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/If_Else_Expression_Tutorial.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/home/scalapractise/two/Option_Tutorial.scala" afterPath="$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/Option_Tutorial.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/home/scalapractise/two/PatternMatching_Tutorial.scala" afterPath="$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/PatternMatching_Tutorial.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/home/scalapractise/two/Range_Tutorial.scala" afterPath="$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/Range_Tutorial.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/home/scalapractise/two/StringInterpolation_Tutorial.scala" afterPath="$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/StringInterpolation_Tutorial.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/home/scalapractise/two/Tuples_Tutorial.scala" afterPath="$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/Tuples_Tutorial.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/home/scalapractise/two/TypeHierarchy_Tutorial.scala" afterPath="$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/TypeHierarchy_Tutorial.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/home/scalapractise/two/VariablesBasics_Tutorial.scala" afterPath="$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/VariablesBasics_Tutorial.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/home/scalapractise/two/VariablesTypeInference_Tutorial.scala" afterPath="$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/VariablesTypeInference_Tutorial.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/home/scalapractise/two/WhileLoop_Tutorial.scala" afterPath="$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/WhileLoop_Tutorial.scala" />
+      <change beforePath="$PROJECT_DIR$/.idea/highlighting.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_01/VariablesBasics_Tutorial$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_01/VariablesBasics_Tutorial$delayedInit$body.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_01/VariablesBasics_Tutorial.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_02/StringInterpolation_Tutorial$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_02/StringInterpolation_Tutorial$Donut$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_02/StringInterpolation_Tutorial$Donut.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_02/StringInterpolation_Tutorial$delayedInit$body.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_02/StringInterpolation_Tutorial.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_04/VariablesTypeInference_Tutorial$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_04/VariablesTypeInference_Tutorial$delayedInit$body.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_04/VariablesTypeInference_Tutorial.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_05/If_Else_Expression_Tutorial$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_05/If_Else_Expression_Tutorial$delayedInit$body.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_05/If_Else_Expression_Tutorial.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_07/Range_Tutorial$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_07/Range_Tutorial$delayedInit$body.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_07/Range_Tutorial.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_08/WhileLoop_Tutorial$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_08/WhileLoop_Tutorial$delayedInit$body.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_08/WhileLoop_Tutorial.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_09/PatternMatching_Tutorial$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_09/PatternMatching_Tutorial$delayedInit$body.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_09/PatternMatching_Tutorial$employee$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_09/PatternMatching_Tutorial$employee.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_09/PatternMatching_Tutorial$teacher$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_09/PatternMatching_Tutorial$teacher.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_09/PatternMatching_Tutorial.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_10/Tuples_Tutorial$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_10/Tuples_Tutorial$delayedInit$body.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_10/Tuples_Tutorial.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_11/Option_Tutorial$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_11/Option_Tutorial$Address$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_11/Option_Tutorial$Address.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_11/Option_Tutorial$User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_11/Option_Tutorial$delayedInit$body.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_11/Option_Tutorial.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_12/TypeHierarchy_Tutorial$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_12/TypeHierarchy_Tutorial$.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_12/TypeHierarchy_Tutorial$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/chapter/two/tutorial_12/TypeHierarchy_Tutorial$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/home/scalapractise/two/Enumeration_Tutorial$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/home/scalapractise/two/Enumeration_Tutorial$Donut$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/home/scalapractise/two/Enumeration_Tutorial$DonutTaste$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/home/scalapractise/two/Enumeration_Tutorial$delayedInit$body.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/home/scalapractise/two/Enumeration_Tutorial.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/home/scalapractise/two/EscapeCharacter_Tutorial$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/home/scalapractise/two/EscapeCharacter_Tutorial$delayedInit$body.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/home/scalapractise/two/EscapeCharacter_Tutorial.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/home/scalapractise/two/ForLoop_Tutorial$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/home/scalapractise/two/ForLoop_Tutorial$delayedInit$body.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/home/scalapractise/two/ForLoop_Tutorial.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,101 +79,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Tuples_Tutorial.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/Tuples_Tutorial.scala">
+      <file leaf-file-name="FunctionWhichIsPartial_Tutorial22.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionWhichIsPartial_Tutorial22.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            <state relative-caret-position="105">
+              <caret line="5" column="62" lean-forward="false" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TypeHierarchy_Tutorial.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/TypeHierarchy_Tutorial.scala">
+      <file leaf-file-name="FunctionByName_Tutorial.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionByName_Tutorial.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            <state relative-caret-position="840">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VariablesBasics_Tutorial.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/VariablesBasics_Tutorial.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VariablesTypeInference_Tutorial.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/VariablesTypeInference_Tutorial.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WhileLoop_Tutorial.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/WhileLoop_Tutorial.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Enumeration_Tutorial.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/Enumeration_Tutorial.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="861">
-              <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Range_Tutorial.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/Range_Tutorial.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringInterpolation_Tutorial.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/StringInterpolation_Tutorial.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PatternMatching_Tutorial.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/PatternMatching_Tutorial.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Option_Tutorial.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/Option_Tutorial.scala">
+      <file leaf-file-name="CreateAndUseFunction_Tutorial1.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/CreateAndUseFunction_Tutorial1.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
               <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FunctionWithParameters_Tutorial2.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionWithParameters_Tutorial2.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FunctionWithOptionParameters_Tutorial3.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionWithOptionParameters_Tutorial3.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1008">
+              <caret line="48" column="4" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FunctionWithOptionReturnType_Tutorial4.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionWithOptionReturnType_Tutorial4.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FunctionWithImplicitParameters_Tutorial5.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionWithImplicitParameters_Tutorial5.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FunctionWhichIsImplicit_Tutorial6.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionWhichIsImplicit_Tutorial6.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="42" column="49" lean-forward="false" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForLoop_Tutorial.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/ForLoop_Tutorial.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Enumeration_Tutorial.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/Enumeration_Tutorial.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -146,6 +184,14 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>glazeddonuttaste</find>
+      <find>Function Cu</find>
+      <find>Val function</find>
+      <find>function comp</find>
+      <find>function composition</find>
+      <find>tail rec</find>
+      <find>tailca</find>
+      <find>tramp</find>
+      <find>partialfunction tr</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -185,6 +231,22 @@
         <option value="$PROJECT_DIR$/src/main/scala/home/scalapractise/two/WhileLoop_Tutorial.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/home/scalapractise/two/VariablesTypeInference_Tutorial.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/WhileLoop_Tutorial.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionWithVariableArguments_Tutorial.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/CreateAndUseFunction_Tutorial.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionCurriedParameterGroups_Tutorial10.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionCurriedParameterGroups_Tutorial11.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionAsValues_Tutorial16.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionCompositionAndThen_Tutorial17.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionRecursive_Tutorial19.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionRecursiveTailCall_Tutorial20.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionTrampoline_Tutorial21.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionWhichIsPartial_Tutorial22.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/CreateAndUseFunction_Tutorial1.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionWithParameters_Tutorial2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionWithOptionParameters_Tutorial3.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionWithOptionReturnType_Tutorial4.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionWithImplicitParameters_Tutorial5.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionWhichIsImplicit_Tutorial6.scala" />
       </list>
     </option>
   </component>
@@ -248,6 +310,15 @@
             </path>
             <path>
               <item name="AllAboutScala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="scalapractise" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AllAboutScala" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -275,7 +346,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.If_Else_Expression_Tutorial">
+  <component name="RunManager" selected="Application.FunctionWhichIsImplicit_Tutorial6">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -283,14 +354,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Enumeration_Tutorial (1)" type="Application" factoryName="Application" temporary="true">
+    <configuration name="ForLoop_Tutorial" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="home.scalapractise.scalaFoundataions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="home.scalapractise.scalaFoundataions.Enumeration_Tutorial" />
+      <option name="MAIN_CLASS_NAME" value="home.scalapractise.scalaFoundataions.ForLoop_Tutorial" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -302,14 +373,14 @@
       <module name="spark" />
       <envs />
     </configuration>
-    <configuration name="Enumeration_Tutorial" type="Application" factoryName="Application" temporary="true">
+    <configuration name="FunctionByName_Tutorial" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.allaboutscala.chapter.two.tutorial_13.*" />
+          <option name="PATTERN" value="com.allaboutscala.chapter.three.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.allaboutscala.chapter.two.tutorial_13.Enumeration_Tutorial" />
+      <option name="MAIN_CLASS_NAME" value="com.allaboutscala.chapter.three.FunctionByName_Tutorial" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -321,14 +392,14 @@
       <module name="spark" />
       <envs />
     </configuration>
-    <configuration name="EscapeCharacter_Tutorial" type="Application" factoryName="Application" temporary="true">
+    <configuration name="FunctionWhichIsImplicit_Tutorial6" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.allaboutscala.chapter.two.tutorial_03.*" />
+          <option name="PATTERN" value="home.scalapractise.functions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.allaboutscala.chapter.two.tutorial_03.EscapeCharacter_Tutorial" />
+      <option name="MAIN_CLASS_NAME" value="home.scalapractise.functions.FunctionWhichIsImplicit_Tutorial6" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -340,14 +411,33 @@
       <module name="spark" />
       <envs />
     </configuration>
-    <configuration name="If_Else_Expression_Tutorial" type="Application" factoryName="Application" temporary="true">
+    <configuration name="FunctionWithOptionParameters_Tutorial3" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.allaboutscala.chapter.two.tutorial_05.*" />
+          <option name="PATTERN" value="home.scalapractise.functions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.allaboutscala.chapter.two.tutorial_05.If_Else_Expression_Tutorial" />
+      <option name="MAIN_CLASS_NAME" value="home.scalapractise.functions.FunctionWithOptionParameters_Tutorial3" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spark" />
+      <envs />
+    </configuration>
+    <configuration name="FunctionWithOptionReturnType_Tutorial4" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="home.scalapractise.functions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="home.scalapractise.functions.FunctionWithOptionReturnType_Tutorial4" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -400,12 +490,6 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
-    <configuration name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
-      <module name="spark" />
-      <setting name="vmparams4" value="-Djline.terminal=NONE" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="consoleArgs" value="-usejavacp" />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -440,19 +524,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.EscapeCharacter_Tutorial" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Enumeration_Tutorial" />
-      <item index="2" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Enumeration_Tutorial (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.If_Else_Expression_Tutorial" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ForLoop_Tutorial" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FunctionByName_Tutorial" />
+      <item index="2" class="java.lang.String" itemvalue="Application.FunctionWithOptionParameters_Tutorial3" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FunctionWithOptionReturnType_Tutorial4" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FunctionWhichIsImplicit_Tutorial6" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.If_Else_Expression_Tutorial" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Enumeration_Tutorial (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
-        <item index="3" class="java.lang.String" itemvalue="Application.EscapeCharacter_Tutorial" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Enumeration_Tutorial" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FunctionWhichIsImplicit_Tutorial6" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FunctionWithOptionReturnType_Tutorial4" />
+        <item index="2" class="java.lang.String" itemvalue="Application.FunctionWithOptionParameters_Tutorial3" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FunctionByName_Tutorial" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ForLoop_Tutorial" />
       </list>
     </recent_temporary>
   </component>
@@ -519,6 +603,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -530,17 +615,17 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45993415" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45993415" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31284302" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27916667" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40052083" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -560,7 +645,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="6" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -684,14 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/ForLoop_Tutorial.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/If_Else_Expression_Tutorial.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -772,10 +849,154 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionWithVariableArguments_Tutorial9.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="58" lean-forward="false" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionDefinedAsSymbols_Tutorial10.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionCurriedParameterGroups_Tutorial11.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-178">
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionAsValues_Tutorial16.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="45" column="46" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionCompositionAndThen_Tutorial17.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionCompositionCompose_Tutorial18.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionRecursive_Tutorial19.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="34" column="10" lean-forward="false" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionRecursiveTailCall_Tutorial20.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionTrampoline_Tutorial21.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionWhichIsPartial_Tutorial22.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="62" lean-forward="false" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/Enumeration_Tutorial.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+        <state relative-caret-position="330">
+          <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/scalaFoundataions/ForLoop_Tutorial.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/CreateAndUseFunction_Tutorial1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionWithParameters_Tutorial2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionWithOptionParameters_Tutorial3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="48" column="4" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionWithOptionReturnType_Tutorial4.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionByName_Tutorial.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionWithImplicitParameters_Tutorial5.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/home/scalapractise/functions/FunctionWhichIsImplicit_Tutorial6.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="42" column="49" lean-forward="false" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
           <folding />
         </state>
       </provider>
