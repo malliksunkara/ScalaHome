@@ -1,4 +1,4 @@
-package com.allaboutscala.chapter.three
+package home.scalapractise.functions
 
 /**
   * Created by Nadim Bahadoor on 28/06/2016.
@@ -21,7 +21,7 @@ package com.allaboutscala.chapter.three
   * License for the specific language governing permissions and limitations under
   * the License.
   */
-object FunctionDefinedAsSymbols_Tutorial extends App {
+object FunctionDefinedAsSymbols_Tutorial0 extends App {
 
 
   println("Step 1: How to create and instantiate a class")
