@@ -7,6 +7,8 @@ import akka.stream.scaladsl._
 
 object MyFirstStream {
   def main(args: Array[String]): Unit = {
+
+   // sample 1
     implicit val system = ActorSystem("MyActorSystem")
     //ActorMaterializer is responsible for creating actors that will eventually run the processing flow and it requires ActorSystem to be available implicitly.
     implicit val materializer = ActorMaterializer()
@@ -21,6 +23,16 @@ object MyFirstStream {
     val sum: Future[Int] = runnable.run()
 
     println(sum)
+
+    //sample 2
+
+
+    val source1 = Source(0 to 20000000)
+    val flow1 = Flow[Int].map(_.toString())
+    val sink1 = Sink.foreach[String](println(_))
+    val runnable1 = source1.via(flow1).to(sink1)
+    val result = runnable1.run()
+    println(result)
 
   }
 
