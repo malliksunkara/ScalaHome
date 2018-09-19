@@ -3,11 +3,17 @@ package home.scalapractise.actormodel
 import akka.actor.Actor
 import akka.actor.ActorSystem
 import akka.actor.Props
+import com.sun.xml.internal.ws.dump.LoggingDumpTube.Position
 
 case class HelloActor(myName: String) extends Actor {
   def receive = {
     case "hello" => println(s"hello from ${myName}")
     case _ => println(s"no hello from${myName}")
+
+  }
+  override def postStop(){
+    super.postStop();
+    println("postStop method is called");
   }
 }
 
@@ -30,6 +36,9 @@ object Main extends App {
   helloActor1 ! "hello"
   helloActor1 ! "something else"
 
-  system.stop(helloActor1)
+
+
+
+
 
 }
