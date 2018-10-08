@@ -1,29 +1,29 @@
 [info] Updating ...
-[debug] :: resolving dependencies :: default#spark_2.12;0.1
+[debug] :: resolving dependencies :: hello#hello_2.12;0.1.0-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#spark_2.12;0.1 [compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [compile->default(compile)]
+[debug] == resolving dependencies for hello#hello_2.12;0.1.0-SNAPSHOT [compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.6
 [debug] 	found org.scala-lang#scala-library;2.12.6 in sbt-chain
 [debug] 	[2.12.6] org.scala-lang#scala-library;2.12.6
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [compile->runtime]
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->default(compile)]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->runtime]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.12;2.5.10 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.12;2.5.10
 [debug] 	found com.typesafe.akka#akka-actor_2.12;2.5.10 in sbt-chain
 [debug] 	[2.5.10] com.typesafe.akka#akka-actor_2.12;2.5.10
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->runtime]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->runtime]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-actor_2.12;2.5.10->org.scala-lang#scala-library;2.12.6 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -81,30 +81,18 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-actor_2.12;2.5.10->com.typesafe#config;1.3.2 [runtime->compile]
 [debug] == resolving dependencies com.typesafe.akka#akka-actor_2.12;2.5.10->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-actor_2.12;2.5.10->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->master]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->default(compile)]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-http_2.12;10.1.5 {compile=[default(compile)]}
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-http_2.12;10.1.5 {compile=[default(compile)]}
-[debug] 		tried C:\Users\lenovo\.ivy2\local\com.typesafe.akka\akka-http_2.12\10.1.5\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.akka#akka-http_2.12;10.1.5
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.5/akka-http_2.12-10.1.5.pom
-[debug] 	public: found md file for com.typesafe.akka#akka-http_2.12;10.1.5
-[debug] 		=> https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.5/akka-http_2.12-10.1.5.pom (10.1.5)
-[debug] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.5/akka-http_2.12-10.1.5.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.5/akka-http_2.12-10.1.5.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.5/akka-http_2.12-10.1.5.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.5/akka-http_2.12-10.1.5.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-http_2.12;10.1.5!akka-http_2.12.pom(pom.original) (829ms)
-[debug] 		tried C:\Users\lenovo\.ivy2\local\com.typesafe.akka\akka-http_2.12\10.1.5\jars\akka-http_2.12.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.5/akka-http_2.12-10.1.5.jar
-[debug] 	found com.typesafe.akka#akka-http_2.12;10.1.5 in public
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-http_2.12;10.1.5
+[debug] 	found com.typesafe.akka#akka-http_2.12;10.1.5 in sbt-chain
 [debug] 	[10.1.5] com.typesafe.akka#akka-http_2.12;10.1.5
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->runtime]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->runtime]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-http_2.12;10.1.5->org.scala-lang#scala-library;2.12.6 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -122,20 +110,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-http-core_2.12;10.1.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-http-core_2.12;10.1.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\lenovo\.ivy2\local\com.typesafe.akka\akka-http-core_2.12\10.1.5\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.akka#akka-http-core_2.12;10.1.5
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.5/akka-http-core_2.12-10.1.5.pom
-[debug] 	public: found md file for com.typesafe.akka#akka-http-core_2.12;10.1.5
-[debug] 		=> https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.5/akka-http-core_2.12-10.1.5.pom (10.1.5)
-[debug] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.5/akka-http-core_2.12-10.1.5.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.5/akka-http-core_2.12-10.1.5.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.5/akka-http-core_2.12-10.1.5.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.5/akka-http-core_2.12-10.1.5.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-http-core_2.12;10.1.5!akka-http-core_2.12.pom(pom.original) (832ms)
-[debug] 		tried C:\Users\lenovo\.ivy2\local\com.typesafe.akka\akka-http-core_2.12\10.1.5\jars\akka-http-core_2.12.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.5/akka-http-core_2.12-10.1.5.jar
-[debug] 	found com.typesafe.akka#akka-http-core_2.12;10.1.5 in public
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-http-core_2.12;10.1.5
+[debug] 	found com.typesafe.akka#akka-http-core_2.12;10.1.5 in sbt-chain
 [debug] 	[10.1.5] com.typesafe.akka#akka-http-core_2.12;10.1.5
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-http_2.12;10.1.5->com.typesafe.akka#akka-http-core_2.12;10.1.5 [compile->compile(*)]
@@ -161,20 +137,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-parsing_2.12;10.1.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-parsing_2.12;10.1.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\lenovo\.ivy2\local\com.typesafe.akka\akka-parsing_2.12\10.1.5\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.akka#akka-parsing_2.12;10.1.5
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.5/akka-parsing_2.12-10.1.5.pom
-[debug] 	public: found md file for com.typesafe.akka#akka-parsing_2.12;10.1.5
-[debug] 		=> https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.5/akka-parsing_2.12-10.1.5.pom (10.1.5)
-[debug] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.5/akka-parsing_2.12-10.1.5.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.5/akka-parsing_2.12-10.1.5.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.5/akka-parsing_2.12-10.1.5.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.5/akka-parsing_2.12-10.1.5.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-parsing_2.12;10.1.5!akka-parsing_2.12.pom(pom.original) (823ms)
-[debug] 		tried C:\Users\lenovo\.ivy2\local\com.typesafe.akka\akka-parsing_2.12\10.1.5\jars\akka-parsing_2.12.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.5/akka-parsing_2.12-10.1.5.jar
-[debug] 	found com.typesafe.akka#akka-parsing_2.12;10.1.5 in public
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-parsing_2.12;10.1.5
+[debug] 	found com.typesafe.akka#akka-parsing_2.12;10.1.5 in sbt-chain
 [debug] 	[10.1.5] com.typesafe.akka#akka-parsing_2.12;10.1.5
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.12.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -207,30 +171,18 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-http_2.12;10.1.5->org.scala-lang#scala-library;2.12.6 [runtime->compile]
 [debug] == resolving dependencies com.typesafe.akka#akka-http_2.12;10.1.5->com.typesafe.akka#akka-http-core_2.12;10.1.5 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-http_2.12;10.1.5->com.typesafe.akka#akka-http-core_2.12;10.1.5 [runtime->compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->master]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->default(compile)]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-stream_2.12;2.5.12 {compile=[default(compile)]}
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-stream_2.12;2.5.12 {compile=[default(compile)]}
-[debug] 		tried C:\Users\lenovo\.ivy2\local\com.typesafe.akka\akka-stream_2.12\2.5.12\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.akka#akka-stream_2.12;2.5.12
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.12/akka-stream_2.12-2.5.12.pom
-[debug] 	public: found md file for com.typesafe.akka#akka-stream_2.12;2.5.12
-[debug] 		=> https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.12/akka-stream_2.12-2.5.12.pom (2.5.12)
-[debug] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.12/akka-stream_2.12-2.5.12.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.12/akka-stream_2.12-2.5.12.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.12/akka-stream_2.12-2.5.12.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.12/akka-stream_2.12-2.5.12.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-stream_2.12;2.5.12!akka-stream_2.12.pom(pom.original) (818ms)
-[debug] 		tried C:\Users\lenovo\.ivy2\local\com.typesafe.akka\akka-stream_2.12\2.5.12\jars\akka-stream_2.12.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.12/akka-stream_2.12-2.5.12.jar
-[debug] 	found com.typesafe.akka#akka-stream_2.12;2.5.12 in public
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-stream_2.12;2.5.12
+[debug] 	found com.typesafe.akka#akka-stream_2.12;2.5.12 in sbt-chain
 [debug] 	[2.5.12] com.typesafe.akka#akka-stream_2.12;2.5.12
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->runtime]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->runtime]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-stream_2.12;2.5.12->org.scala-lang#scala-library;2.12.6 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -246,20 +198,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.12;2.5.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.12;2.5.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\lenovo\.ivy2\local\com.typesafe.akka\akka-actor_2.12\2.5.12\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.akka#akka-actor_2.12;2.5.12
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.12/akka-actor_2.12-2.5.12.pom
-[debug] 	public: found md file for com.typesafe.akka#akka-actor_2.12;2.5.12
-[debug] 		=> https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.12/akka-actor_2.12-2.5.12.pom (2.5.12)
-[debug] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.12/akka-actor_2.12-2.5.12.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.12/akka-actor_2.12-2.5.12.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.12/akka-actor_2.12-2.5.12.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.12/akka-actor_2.12-2.5.12.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.12;2.5.12!akka-actor_2.12.pom(pom.original) (828ms)
-[debug] 		tried C:\Users\lenovo\.ivy2\local\com.typesafe.akka\akka-actor_2.12\2.5.12\jars\akka-actor_2.12.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.12/akka-actor_2.12-2.5.12.jar
-[debug] 	found com.typesafe.akka#akka-actor_2.12;2.5.12 in public
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.12;2.5.12
+[debug] 	found com.typesafe.akka#akka-actor_2.12;2.5.12 in sbt-chain
 [debug] 	[2.5.12] com.typesafe.akka#akka-actor_2.12;2.5.12
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-stream_2.12;2.5.12->com.typesafe.akka#akka-actor_2.12;2.5.12 [compile->compile(*)]
@@ -329,20 +269,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-protobuf_2.12;2.5.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-protobuf_2.12;2.5.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\lenovo\.ivy2\local\com.typesafe.akka\akka-protobuf_2.12\2.5.12\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.akka#akka-protobuf_2.12;2.5.12
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.12/akka-protobuf_2.12-2.5.12.pom
-[debug] 	public: found md file for com.typesafe.akka#akka-protobuf_2.12;2.5.12
-[debug] 		=> https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.12/akka-protobuf_2.12-2.5.12.pom (2.5.12)
-[debug] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.12/akka-protobuf_2.12-2.5.12.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.12/akka-protobuf_2.12-2.5.12.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.12/akka-protobuf_2.12-2.5.12.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.12/akka-protobuf_2.12-2.5.12.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-protobuf_2.12;2.5.12!akka-protobuf_2.12.pom(pom.original) (833ms)
-[debug] 		tried C:\Users\lenovo\.ivy2\local\com.typesafe.akka\akka-protobuf_2.12\2.5.12\jars\akka-protobuf_2.12.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.12/akka-protobuf_2.12-2.5.12.jar
-[debug] 	found com.typesafe.akka#akka-protobuf_2.12;2.5.12 in public
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-protobuf_2.12;2.5.12
+[debug] 	found com.typesafe.akka#akka-protobuf_2.12;2.5.12 in sbt-chain
 [debug] 	[2.5.12] com.typesafe.akka#akka-protobuf_2.12;2.5.12
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-stream_2.12;2.5.12->com.typesafe.akka#akka-protobuf_2.12;2.5.12 [compile->compile(*)]
@@ -382,20 +310,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe#ssl-config-core_2.12;0.2.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe#ssl-config-core_2.12;0.2.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\lenovo\.ivy2\local\com.typesafe\ssl-config-core_2.12\0.2.3\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe#ssl-config-core_2.12;0.2.3
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.3/ssl-config-core_2.12-0.2.3.pom
-[debug] 	public: found md file for com.typesafe#ssl-config-core_2.12;0.2.3
-[debug] 		=> https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.3/ssl-config-core_2.12-0.2.3.pom (0.2.3)
-[debug] downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.3/ssl-config-core_2.12-0.2.3.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.3/ssl-config-core_2.12-0.2.3.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.3/ssl-config-core_2.12-0.2.3.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.3/ssl-config-core_2.12-0.2.3.pom
-[debug] 	[SUCCESSFUL ] com.typesafe#ssl-config-core_2.12;0.2.3!ssl-config-core_2.12.pom(pom.original) (898ms)
-[debug] 		tried C:\Users\lenovo\.ivy2\local\com.typesafe\ssl-config-core_2.12\0.2.3\bundles\ssl-config-core_2.12.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.3/ssl-config-core_2.12-0.2.3.jar
-[debug] 	found com.typesafe#ssl-config-core_2.12;0.2.3 in public
+[debug] sbt-chain: module revision found in cache: com.typesafe#ssl-config-core_2.12;0.2.3
+[debug] 	found com.typesafe#ssl-config-core_2.12;0.2.3 in sbt-chain
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-stream_2.12;2.5.12->com.typesafe#ssl-config-core_2.12;0.2.3 [compile->compile(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -464,27 +380,27 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-stream_2.12;2.5.12->org.reactivestreams#reactive-streams;1.0.2 [runtime->compile]
 [debug] == resolving dependencies com.typesafe.akka#akka-stream_2.12;2.5.12->com.typesafe#ssl-config-core_2.12;0.2.3 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-stream_2.12;2.5.12->com.typesafe#ssl-config-core_2.12;0.2.3 [runtime->compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->master]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#spark_2.12;0.1 [runtime]
-[debug] == resolving dependencies for default#spark_2.12;0.1 [compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [compile->default(compile)]
+[debug] == resolving dependencies for hello#hello_2.12;0.1.0-SNAPSHOT [runtime]
+[debug] == resolving dependencies for hello#hello_2.12;0.1.0-SNAPSHOT [compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [compile->runtime]
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->default(compile)]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->runtime]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->runtime]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->runtime]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-actor_2.12;2.5.10->org.scala-lang#scala-library;2.12.6 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -534,16 +450,16 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.12;0.8.0->org.scala-lang#scala-library;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.12;0.8.0->org.scala-lang#scala-library;2.12.6 [runtime->compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->master]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->default(compile)]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->runtime]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->runtime]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-http_2.12;10.1.5->org.scala-lang#scala-library;2.12.6 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -616,16 +532,16 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.12.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-parsing_2.12;10.1.5->org.scala-lang#scala-library;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-parsing_2.12;10.1.5->org.scala-lang#scala-library;2.12.6 [runtime->compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->master]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->default(compile)]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->runtime]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->runtime]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-stream_2.12;2.5.12->org.scala-lang#scala-library;2.12.6 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -799,32 +715,32 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0->org.scala-lang#scala-library;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0->org.scala-lang#scala-library;2.12.6 [runtime->compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->master]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#spark_2.12;0.1 [test]
-[debug] == resolving dependencies for default#spark_2.12;0.1 [runtime]
-[debug] == resolving dependencies for default#spark_2.12;0.1 [compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [compile->default(compile)]
+[debug] == resolving dependencies for hello#hello_2.12;0.1.0-SNAPSHOT [test]
+[debug] == resolving dependencies for hello#hello_2.12;0.1.0-SNAPSHOT [runtime]
+[debug] == resolving dependencies for hello#hello_2.12;0.1.0-SNAPSHOT [compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [compile->runtime]
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->default(compile)]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->runtime]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->runtime]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->runtime]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-actor_2.12;2.5.10->org.scala-lang#scala-library;2.12.6 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -878,18 +794,18 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.12;0.8.0->org.scala-lang#scala-library;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.12;0.8.0->org.scala-lang#scala-library;2.12.6 [runtime->compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->master]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->default(compile)]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->runtime]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->runtime]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-http_2.12;10.1.5->org.scala-lang#scala-library;2.12.6 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -966,18 +882,18 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.12.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-parsing_2.12;10.1.5->org.scala-lang#scala-library;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-parsing_2.12;10.1.5->org.scala-lang#scala-library;2.12.6 [runtime->compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->master]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->default(compile)]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->runtime]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->runtime]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-stream_2.12;2.5.12->org.scala-lang#scala-library;2.12.6 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1159,17 +1075,17 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0->org.scala-lang#scala-library;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0->org.scala-lang#scala-library;2.12.6 [runtime->compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->master]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#spark_2.12;0.1 [provided]
+[debug] == resolving dependencies for hello#hello_2.12;0.1.0-SNAPSHOT [provided]
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#spark_2.12;0.1 [optional]
+[debug] == resolving dependencies for hello#hello_2.12;0.1.0-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#spark_2.12;0.1 [compile-internal]
-[debug] == resolving dependencies for default#spark_2.12;0.1 [compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [compile->default(compile)]
+[debug] == resolving dependencies for hello#hello_2.12;0.1.0-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for hello#hello_2.12;0.1.0-SNAPSHOT [compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
@@ -1178,10 +1094,10 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [compile->runtime]
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->default(compile)]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->runtime]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
@@ -1190,8 +1106,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->runtime]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->runtime]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-actor_2.12;2.5.10->org.scala-lang#scala-library;2.12.6 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1249,10 +1165,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.12;0.8.0->org.scala-lang#scala-library;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.12;0.8.0->org.scala-lang#scala-library;2.12.6 [runtime->compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->master]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->default(compile)]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
@@ -1261,8 +1177,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->runtime]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->runtime]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-http_2.12;10.1.5->org.scala-lang#scala-library;2.12.6 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1343,10 +1259,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.12.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-parsing_2.12;10.1.5->org.scala-lang#scala-library;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-parsing_2.12;10.1.5->org.scala-lang#scala-library;2.12.6 [runtime->compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->master]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->default(compile)]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
@@ -1355,8 +1271,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->runtime]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->runtime]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-stream_2.12;2.5.12->org.scala-lang#scala-library;2.12.6 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1546,16 +1462,16 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0->org.scala-lang#scala-library;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0->org.scala-lang#scala-library;2.12.6 [runtime->compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->master]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies for default#spark_2.12;0.1 [optional]
-[debug] == resolving dependencies for default#spark_2.12;0.1 [provided]
+[debug] == resolving dependencies for hello#hello_2.12;0.1.0-SNAPSHOT [optional]
+[debug] == resolving dependencies for hello#hello_2.12;0.1.0-SNAPSHOT [provided]
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#spark_2.12;0.1 [runtime-internal]
-[debug] == resolving dependencies for default#spark_2.12;0.1 [runtime]
-[debug] == resolving dependencies for default#spark_2.12;0.1 [compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [compile->default(compile)]
+[debug] == resolving dependencies for hello#hello_2.12;0.1.0-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for hello#hello_2.12;0.1.0-SNAPSHOT [runtime]
+[debug] == resolving dependencies for hello#hello_2.12;0.1.0-SNAPSHOT [compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
@@ -1564,10 +1480,10 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [compile->runtime]
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->default(compile)]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->runtime]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
@@ -1576,8 +1492,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->runtime]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->runtime]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-actor_2.12;2.5.10->org.scala-lang#scala-library;2.12.6 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1635,10 +1551,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.12;0.8.0->org.scala-lang#scala-library;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.12;0.8.0->org.scala-lang#scala-library;2.12.6 [runtime->compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->master]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->default(compile)]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
@@ -1647,8 +1563,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->runtime]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->runtime]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-http_2.12;10.1.5->org.scala-lang#scala-library;2.12.6 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1729,10 +1645,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.12.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-parsing_2.12;10.1.5->org.scala-lang#scala-library;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-parsing_2.12;10.1.5->org.scala-lang#scala-library;2.12.6 [runtime->compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->master]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->default(compile)]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
@@ -1741,8 +1657,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->runtime]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->runtime]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-stream_2.12;2.5.12->org.scala-lang#scala-library;2.12.6 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1932,16 +1848,16 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0->org.scala-lang#scala-library;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0->org.scala-lang#scala-library;2.12.6 [runtime->compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->master]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies for default#spark_2.12;0.1 [optional]
+[debug] == resolving dependencies for hello#hello_2.12;0.1.0-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#spark_2.12;0.1 [test-internal]
-[debug] == resolving dependencies for default#spark_2.12;0.1 [test]
-[debug] == resolving dependencies for default#spark_2.12;0.1 [runtime]
-[debug] == resolving dependencies for default#spark_2.12;0.1 [compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [compile->default(compile)]
+[debug] == resolving dependencies for hello#hello_2.12;0.1.0-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for hello#hello_2.12;0.1.0-SNAPSHOT [test]
+[debug] == resolving dependencies for hello#hello_2.12;0.1.0-SNAPSHOT [runtime]
+[debug] == resolving dependencies for hello#hello_2.12;0.1.0-SNAPSHOT [compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
@@ -1954,10 +1870,10 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [compile->runtime]
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->default(compile)]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->runtime]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
@@ -1970,8 +1886,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->runtime]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->runtime]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-actor_2.12;2.5.10->org.scala-lang#scala-library;2.12.6 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -2037,10 +1953,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.12;0.8.0->org.scala-lang#scala-library;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.12;0.8.0->org.scala-lang#scala-library;2.12.6 [runtime->compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->master]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.10 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->default(compile)]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
@@ -2053,8 +1969,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->runtime]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->runtime]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-http_2.12;10.1.5->org.scala-lang#scala-library;2.12.6 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -2143,10 +2059,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.12.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-parsing_2.12;10.1.5->org.scala-lang#scala-library;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-parsing_2.12;10.1.5->org.scala-lang#scala-library;2.12.6 [runtime->compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->master]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.5 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->default(compile)]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
@@ -2159,8 +2075,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->runtime]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->runtime]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-stream_2.12;2.5.12->org.scala-lang#scala-library;2.12.6 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -2366,25 +2282,25 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0->org.scala-lang#scala-library;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0->org.scala-lang#scala-library;2.12.6 [runtime->compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->master]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->com.typesafe.akka#akka-stream_2.12;2.5.12 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies for default#spark_2.12;0.1 [optional]
-[debug] == resolving dependencies for default#spark_2.12;0.1 [provided]
+[debug] == resolving dependencies for hello#hello_2.12;0.1.0-SNAPSHOT [optional]
+[debug] == resolving dependencies for hello#hello_2.12;0.1.0-SNAPSHOT [provided]
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#spark_2.12;0.1 [plugin]
+[debug] == resolving dependencies for hello#hello_2.12;0.1.0-SNAPSHOT [plugin]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#spark_2.12;0.1 [pom]
+[debug] == resolving dependencies for hello#hello_2.12;0.1.0-SNAPSHOT [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#spark_2.12;0.1 [scala-tool]
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-compiler;2.12.6 [scala-tool->default]
+[debug] == resolving dependencies for hello#hello_2.12;0.1.0-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.6 [scala-tool->default]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.12.6
 [debug] 	found org.scala-lang#scala-compiler;2.12.6 in sbt-chain
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-compiler;2.12.6 [scala-tool->runtime]
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-compiler;2.12.6 [scala-tool->compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.6 [scala-tool->runtime]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.6 [scala-tool->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.6->org.scala-lang#scala-library;2.12.6 [compile->master(*)]
@@ -2485,12 +2401,12 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.6->org.scala-lang#scala-reflect;2.12.6 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.6->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.6->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-compiler;2.12.6 [scala-tool->master]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.6 [scala-tool->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-compiler;2.12.6 [scala-tool->optional(default)]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.6 [scala-tool->optional(default)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.6->jline#jline;2.14.6 [optional->master(*)]
@@ -2512,78 +2428,299 @@
 [debug] sbt-chain: module revision found in cache: jline#jline;2.14.6
 [debug] 	found jline#jline;2.14.6 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.6->jline#jline;2.14.6 [optional->compile(*)]
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [scala-tool->default]
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [scala-tool->runtime]
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [scala-tool->compile]
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [scala-tool->master]
-[debug] == resolving dependencies default#spark_2.12;0.1->org.scala-lang#scala-library;2.12.6 [scala-tool->optional(default)]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [scala-tool->default]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [scala-tool->runtime]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [scala-tool->compile]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [scala-tool->master]
+[debug] == resolving dependencies hello#hello_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.6 [scala-tool->optional(default)]
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.5/akka-http_2.12-10.1.5.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.6!scala-library.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.5/akka-http_2.12-10.1.5.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.5/akka-http_2.12-10.1.5.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.12/akka-stream_2.12-2.5.12.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.12/akka-stream_2.12-2.5.12.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.12/akka-stream_2.12-2.5.12.jar
-[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.2!config.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(bundle)
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.5/akka-http-core_2.12-10.1.5.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.5/akka-parsing_2.12-10.1.5.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.5/akka-parsing_2.12-10.1.5.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.5/akka-parsing_2.12-10.1.5.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.5/akka-http-core_2.12-10.1.5.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.5/akka-http-core_2.12-10.1.5.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.12/akka-actor_2.12-2.5.12.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.12/akka-actor_2.12-2.5.12.jar ...
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.3/ssl-config-core_2.12-0.2.3.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.12/akka-actor_2.12-2.5.12.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.3/ssl-config-core_2.12-0.2.3.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.3/ssl-config-core_2.12-0.2.3.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0!scala-parser-combinators_2.12.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar
-[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.12/akka-protobuf_2.12-2.5.12.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.12/akka-protobuf_2.12-2.5.12.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.12/akka-protobuf_2.12-2.5.12.jar
+[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.3!ssl-config-core_2.12.jar(bundle)
+[debug] no default ivy user dir defined: set to C:\Users\lenovo\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\lenovo\.ivy2
 [debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar
+[debug] no default ivy user dir defined: set to C:\Users\lenovo\.ivy2
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.12;2.5.12!akka-protobuf_2.12.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-core_2.12;10.1.5!akka-http-core_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(bundle)
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.2!config.jar(bundle)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.5.12!akka-stream_2.12.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.5.12!akka-actor_2.12.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http_2.12;10.1.5!akka-http_2.12.jar
+[debug] no default ivy user dir defined: set to C:\Users\lenovo\.ivy2
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-parsing_2.12;10.1.5!akka-parsing_2.12.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.3/ssl-config-core_2.12-0.2.3.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.3/ssl-config-core_2.12-0.2.3.jar
-[info] 	[SUCCESSFUL ] com.typesafe#ssl-config-core_2.12;0.2.3!ssl-config-core_2.12.jar(bundle) (3227ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.12/akka-protobuf_2.12-2.5.12.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.12/akka-protobuf_2.12-2.5.12.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-protobuf_2.12;2.5.12!akka-protobuf_2.12.jar (4140ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.5/akka-parsing_2.12-10.1.5.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.5/akka-parsing_2.12-10.1.5.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-parsing_2.12;10.1.5!akka-parsing_2.12.jar (6862ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.5/akka-http_2.12-10.1.5.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.5/akka-http_2.12-10.1.5.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-http_2.12;10.1.5!akka-http_2.12.jar (8245ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.12/akka-stream_2.12-2.5.12.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.12/akka-stream_2.12-2.5.12.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-stream_2.12;2.5.12!akka-stream_2.12.jar (9748ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.12/akka-actor_2.12-2.5.12.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.12/akka-actor_2.12-2.5.12.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.12;2.5.12!akka-actor_2.12.jar (11303ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.5/akka-http-core_2.12-10.1.5.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.5/akka-http-core_2.12-10.1.5.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-http-core_2.12;10.1.5!akka-http-core_2.12.jar (12033ms)
-[debug] :: resolution report :: resolve 12001ms :: artifacts dl 12052ms
-[debug] 	report for default#spark_2.12;0.1 compile produced in F:\knowledge\spark\target\scala-2.12\resolution-cache\reports\default-spark_2.12-compile.xml
-[debug] 	report for default#spark_2.12;0.1 runtime produced in F:\knowledge\spark\target\scala-2.12\resolution-cache\reports\default-spark_2.12-runtime.xml
-[debug] 	report for default#spark_2.12;0.1 test produced in F:\knowledge\spark\target\scala-2.12\resolution-cache\reports\default-spark_2.12-test.xml
-[debug] 	report for default#spark_2.12;0.1 provided produced in F:\knowledge\spark\target\scala-2.12\resolution-cache\reports\default-spark_2.12-provided.xml
-[debug] 	report for default#spark_2.12;0.1 optional produced in F:\knowledge\spark\target\scala-2.12\resolution-cache\reports\default-spark_2.12-optional.xml
-[debug] 	report for default#spark_2.12;0.1 compile-internal produced in F:\knowledge\spark\target\scala-2.12\resolution-cache\reports\default-spark_2.12-compile-internal.xml
-[debug] 	report for default#spark_2.12;0.1 runtime-internal produced in F:\knowledge\spark\target\scala-2.12\resolution-cache\reports\default-spark_2.12-runtime-internal.xml
-[debug] 	report for default#spark_2.12;0.1 test-internal produced in F:\knowledge\spark\target\scala-2.12\resolution-cache\reports\default-spark_2.12-test-internal.xml
-[debug] 	report for default#spark_2.12;0.1 plugin produced in F:\knowledge\spark\target\scala-2.12\resolution-cache\reports\default-spark_2.12-plugin.xml
-[debug] 	report for default#spark_2.12;0.1 pom produced in F:\knowledge\spark\target\scala-2.12\resolution-cache\reports\default-spark_2.12-pom.xml
-[debug] 	report for default#spark_2.12;0.1 scala-tool produced in F:\knowledge\spark\target\scala-2.12\resolution-cache\reports\default-spark_2.12-scala-tool.xml
-[debug] 	resolve done (12001ms resolve - 12052ms download)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0!scala-parser-combinators_2.12.jar(bundle)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar
+[debug] no default ivy user dir defined: set to C:\Users\lenovo\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\lenovo\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\lenovo\.ivy2
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default ivy user dir defined: set to C:\Users\lenovo\.ivy2
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default ivy user dir defined: set to C:\Users\lenovo\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\lenovo\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\lenovo\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\lenovo\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\lenovo\.ivy2
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default ivy user dir defined: set to C:\Users\lenovo\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\lenovo\.ivy2
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\lenovo\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to C:\Users\lenovo\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] no default cache defined: set to C:\Users\lenovo\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\lenovo\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\lenovo\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\lenovo\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to C:\Users\lenovo\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (216ms)
+[debug] 	default cache: C:\Users\lenovo\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] no default cache defined: set to C:\Users\lenovo\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to C:\Users\lenovo\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] no default ivy user dir defined: set to C:\Users\lenovo\.ivy2
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\lenovo\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] no default cache defined: set to C:\Users\lenovo\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to C:\Users\lenovo\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] no default cache defined: set to C:\Users\lenovo\.ivy2\cache
+[debug] no default cache defined: set to C:\Users\lenovo\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (191ms)
+[debug] 	default cache: C:\Users\lenovo\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (214ms)
+[debug] 	default cache: C:\Users\lenovo\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (269ms)
+[debug] 	default cache: C:\Users\lenovo\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (267ms)
+[debug] 	default cache: C:\Users\lenovo\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (205ms)
+[debug] 	default cache: C:\Users\lenovo\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (243ms)
+[debug] 	default cache: C:\Users\lenovo\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] no default cache defined: set to C:\Users\lenovo\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] settings loaded (265ms)
+[debug] 	default cache: C:\Users\lenovo\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (293ms)
+[debug] 	default cache: C:\Users\lenovo\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (276ms)
+[debug] 	default cache: C:\Users\lenovo\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (318ms)
+[debug] 	default cache: C:\Users\lenovo\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] settings loaded (281ms)
+[debug] 	default cache: C:\Users\lenovo\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (353ms)
+[debug] 	default cache: C:\Users\lenovo\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (356ms)
+[debug] 	default cache: C:\Users\lenovo\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] settings loaded (308ms)
+[debug] 	default cache: C:\Users\lenovo\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] no default cache defined: set to C:\Users\lenovo\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/lenovo/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (156ms)
+[debug] 	default cache: C:\Users\lenovo\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] :: resolution report :: resolve 1667ms :: artifacts dl 414ms
+[debug] 	report for hello#hello_2.12;0.1.0-SNAPSHOT compile produced in F:\knowledge\spark\target\scala-2.12\resolution-cache\reports\hello-hello_2.12-compile.xml
+[debug] 	report for hello#hello_2.12;0.1.0-SNAPSHOT runtime produced in F:\knowledge\spark\target\scala-2.12\resolution-cache\reports\hello-hello_2.12-runtime.xml
+[debug] 	report for hello#hello_2.12;0.1.0-SNAPSHOT test produced in F:\knowledge\spark\target\scala-2.12\resolution-cache\reports\hello-hello_2.12-test.xml
+[debug] 	report for hello#hello_2.12;0.1.0-SNAPSHOT provided produced in F:\knowledge\spark\target\scala-2.12\resolution-cache\reports\hello-hello_2.12-provided.xml
+[debug] 	report for hello#hello_2.12;0.1.0-SNAPSHOT optional produced in F:\knowledge\spark\target\scala-2.12\resolution-cache\reports\hello-hello_2.12-optional.xml
+[debug] 	report for hello#hello_2.12;0.1.0-SNAPSHOT compile-internal produced in F:\knowledge\spark\target\scala-2.12\resolution-cache\reports\hello-hello_2.12-compile-internal.xml
+[debug] 	report for hello#hello_2.12;0.1.0-SNAPSHOT runtime-internal produced in F:\knowledge\spark\target\scala-2.12\resolution-cache\reports\hello-hello_2.12-runtime-internal.xml
+[debug] 	report for hello#hello_2.12;0.1.0-SNAPSHOT test-internal produced in F:\knowledge\spark\target\scala-2.12\resolution-cache\reports\hello-hello_2.12-test-internal.xml
+[debug] 	report for hello#hello_2.12;0.1.0-SNAPSHOT plugin produced in F:\knowledge\spark\target\scala-2.12\resolution-cache\reports\hello-hello_2.12-plugin.xml
+[debug] 	report for hello#hello_2.12;0.1.0-SNAPSHOT pom produced in F:\knowledge\spark\target\scala-2.12\resolution-cache\reports\hello-hello_2.12-pom.xml
+[debug] 	report for hello#hello_2.12;0.1.0-SNAPSHOT scala-tool produced in F:\knowledge\spark\target\scala-2.12\resolution-cache\reports\hello-hello_2.12-scala-tool.xml
+[debug] 	resolve done (1667ms resolve - 414ms download)
 [info] Done updating.
 [warn] There may be incompatibilities among your library dependencies.
 [warn] Run 'evicted' to see detailed eviction warnings
