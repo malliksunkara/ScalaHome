@@ -1,0 +1,15 @@
+[0m[[0m[33mwarn[0m] [0m[0mF:\knowledge\spark\src\main\scala\home\scalapractise\functions\FunctionWithOptionParameters_Tutorial3.scala:39:12: patterns after a variable pattern cannot match (SLS 8.1.1)[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case _ =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mF:\knowledge\spark\src\main\scala\home\scalapractise\functions\FunctionWithOptionParameters_Tutorial3.scala:42:17: unreachable code due to variable pattern on line 39[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case None =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mF:\knowledge\spark\src\main\scala\home\scalapractise\scalaFoundataions\Option_Tutorial.scala:60:2: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: None[0m
+[0m[[0m[33mwarn[0m] [0m[0m arrayList match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere was one deprecation warning (since 2.12.0)[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere was one deprecation warning (since 2.5.0)[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were two deprecation warnings in total; re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were 17 feature warnings; re-run with -feature for details[0m
+[0m[[0m[33mwarn[0m] [0m[0m7 warnings found[0m
