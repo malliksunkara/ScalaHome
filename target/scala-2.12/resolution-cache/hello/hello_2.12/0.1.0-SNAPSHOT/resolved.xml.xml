@@ -4,7 +4,7 @@
 		module="hello_2.12"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180924161032"
+		publication="20181010140726"
 	>
 		<description>
 		Hello
@@ -35,5 +35,10 @@
 		<dependency org="com.typesafe.akka" name="akka-actor_2.12" rev="2.5.10" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-http_2.12" rev="10.1.5" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-stream_2.12" rev="2.5.12" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-agent_2.12" rev="2.5.17" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-persistence_2.12" rev="2.5.17" conf="compile->default(compile)"/>
+		<dependency org="org.iq80.leveldb" name="leveldb" rev="0.10" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-testkit_2.12" rev="2.5.17" conf="test->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.2.0-SNAP10" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>
